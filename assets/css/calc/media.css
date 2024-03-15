@@ -1,0 +1,149 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	.areaprincipal {
+		width: 100vw;
+		height: 110vh;
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	.container-logo	{
+		width: 20%;
+		height: 100%;
+	}
+
+	.logonick {
+		width: 20%;
+		height: 50%;
+	}
+
+	.cabe-esquerda {
+		width: 40%;
+	}
+
+	.cabe-direita {
+		width: 40%;
+	}
+
+	#areacalc, .calculator {
+		width: 95%;
+		height: 310px;
+	}
+
+	.legendaform {
+		margin-bottom: 5px;
+	}
+
+	.areaform {
+		float: left;
+		width: 50%;
+	}
+
+	#resultado {
+		float: right;
+		width: 50%;
+	}
+
+	.guia > h2 {
+		margin-bottom: 10px;
+	}
+
+	.nota {
+		float: bottom;
+	}
+
+	#resultado > h2 {
+		float: left;
+		width: 30%;
+	}
+
+	.areatabela {
+		float: right;
+		width: 70%;
+	}
+
+	#reset {
+		transform: translate(50%, 0%);
+		margin: 0;
+	}
+
+	footer {
+		margin-top: -20px;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+	.cabecalho {
+		height: 10vh;
+	}
+
+	.container-logo	{
+		width: 15%;
+		height: 100%;
+	}
+
+	.logonick {
+		width: 40%;
+		height: 50%;
+	}
+
+	.cabe-esquerda {
+		width: 40%;
+	}
+
+	.cabe-direita {
+		width: 30%;
+	}
+	
+	.areaprincipal {
+		width: 100vw;
+		height: 80vh;
+		margin: auto;
+		margin-top: 10px;
+	}
+
+	#areacalc, .calculator {
+		width: 90%;
+		height: 310px;
+	}
+
+	.areaform {
+		float: left;
+		width: 50%;
+	}
+
+	#resultado {
+		float: right;
+		width: 50%;
+	}
+
+	.guia > h2 {
+		margin-bottom: 10px;
+	}
+
+	.nota {
+		float: bottom;
+	}
+
+	#resultado > h2 {
+		float: left;
+		width: 30%;
+	}
+
+	.areatabela {
+		float: right;
+		width: 70%;
+	}
+
+	#reset {
+		transform: translate(50%, 0%);
+		margin: 0;
+	}
+
+	footer {
+		height: 10vh;
+		margin-top: -10px;
+	}
+}
