@@ -19,7 +19,6 @@
 }
 
 body, html {
-	background-color: #ffffff;
 	height: 100vh;
 	width: 100vw;
 }
@@ -79,7 +78,7 @@ body, html {
 .titulopagina {
 	text-align: center;
 	font-weight: bold;
-	color: #5ca3ee;
+	color: #183f69;
 	margin-bottom: 10px;
     text-shadow: 5px 5px 10px #c0c9d237;
 }

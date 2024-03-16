@@ -18,7 +18,7 @@
 }
 
 body, html {
-	background-image: linear-gradient(to bottom right, #5ca3ee, #fafafa, #5ca3ee);
+	background-image: linear-gradient(to bottom right, #5ca3ee, #fafafa);
 	height: 100vh;
 	width: 100vw;
 }
@@ -114,7 +114,7 @@ footer > p {
 
 @media screen and (min-width: 992px) {
 	body {
-		background-image: linear-gradient(to bottom,  #5ca3ee, #fafafa, #5ca3ee);
+		background-image: linear-gradient(to bottom,  #5ca3ee, #fafafa);
 	}
 
 	.container-logo	{
