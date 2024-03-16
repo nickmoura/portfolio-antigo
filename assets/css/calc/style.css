@@ -93,12 +93,11 @@ body, html {
 }
 
 .mini-menu > a {
-	color: #5ca3ee;
+	color: #183f69;
 	text-decoration: none;
 }
 
 .mini-menu > a.active {
-    color: #183f69; /* Cor diferente para o link ativo */
 	font-weight: bold;
 }
 
