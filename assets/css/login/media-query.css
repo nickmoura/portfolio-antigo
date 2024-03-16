@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	body {
+		background-image: linear-gradient(to bottom, #5ca3ee, #fafafa);
+	}
+
+	.container-logo	{
+		width: 20%;
+		height: 100%;
+	}
+
+	.logonick {
+		width: 20%;
+		height: 50%;
+	}
+
+	.cabe-esquerda {
+		width: 40%;
+	}
+
+	.cabe-direita {
+		width: 40%;
+	}
+
+	#login {
+		width: 80vw;
+		height: 280px;
+	}
+
+	#imagem {
+		float: left;
+		width: 30%;
+		height: 100%;
+	}
+
+	#formulario {
+		float: right;
+		width: 70%;
+	}
+
+}
+
+@media screen and (min-width: 992px) {
+	body {
+		background-image: linear-gradient(to bottom, #5ca3ee, #fafafa);
+	}
+
+	.container-logo	{
+		width: 20%;
+		height: 100%;
+	}
+
+	.logonick {
+		width: 20%;
+		height: 50%;
+	}
+
+	.cabe-esquerda {
+		width: 40%;
+	}
+
+	.cabe-direita {
+		width: 40%;
+	}
+
+	#login {
+		width: 80vw;
+		height: 350px;
+	}
+	#imagem {
+		float: right;
+		width: 50%;
+		height: 100%;
+	}
+
+	#formulario {
+		float: left;
+		width: 50%;
+	}
+
+	#formulario > h1 {
+		font-size: 2em;
+	}
+
+	#formulario > p {
+		font-size: 1em;
+		margin: 20px 0;
+	}
+}
