@@ -1,29 +1,15 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
+	body {
+		background-image: linear-gradient(to bottom,  #5ca3ee, #fafafa, #5ca3ee);
+	}	
+	
 	.areaprincipal {
 		width: 100vw;
 		height: 110vh;
 		margin: auto;
 		margin-top: 10px;
-	}
-
-	.container-logo	{
-		width: 20%;
-		height: 100%;
-	}
-
-	.logonick {
-		width: 20%;
-		height: 50%;
-	}
-
-	.cabe-esquerda {
-		width: 40%;
-	}
-
-	.cabe-direita {
-		width: 40%;
 	}
 
 	#areacalc, .calculator {
@@ -75,28 +61,10 @@
 }
 
 @media screen and (min-width: 992px) {
-	.cabecalho {
-		height: 10vh;
+	body {
+		background-image: linear-gradient(to bottom,  #5ca3ee, #fafafa, #5ca3ee);
 	}
-
-	.container-logo	{
-		width: 15%;
-		height: 100%;
-	}
-
-	.logonick {
-		width: 40%;
-		height: 50%;
-	}
-
-	.cabe-esquerda {
-		width: 40%;
-	}
-
-	.cabe-direita {
-		width: 30%;
-	}
-	
+		
 	.areaprincipal {
 		width: 100vw;
 		height: 80vh;

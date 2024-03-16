@@ -18,7 +18,7 @@
 }
 
 body, html {
-	background-image: linear-gradient(to bottom right, #5ca3ee, #fafafa);
+	background-image: linear-gradient(to bottom right, #5ca3ee, #fafafa, #5ca3ee);
 	height: 100vh;
 	width: 100vw;
 }
@@ -86,4 +86,52 @@ footer > p {
 	text-decoration: none;
 	color: #fafafa;
 	font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+	body {
+		background-image: linear-gradient(to bottom,  #5ca3ee, #fafafa, #5ca3ee);
+	}
+
+	.container-logo	{
+		width: 20%;
+		height: 100%;
+	}
+
+	.logonick {
+		width: 20%;
+		height: 50%;
+	}
+
+	.cabe-esquerda {
+		width: 40%;
+	}
+
+	.cabe-direita {
+		width: 40%;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	body {
+		background-image: linear-gradient(to bottom,  #5ca3ee, #fafafa, #5ca3ee);
+	}
+
+	.container-logo	{
+		width: 20%;
+		height: 100%;
+	}
+
+	.logonick {
+		width: 20%;
+		height: 50%;
+	}
+
+	.cabe-esquerda {
+		width: 40%;
+	}
+
+	.cabe-direita {
+		width: 40%;
+	}
 }
