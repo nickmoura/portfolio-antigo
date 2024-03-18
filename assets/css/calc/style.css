@@ -113,6 +113,10 @@ body, html {
 	margin: auto;
 }
 
+.calculator {
+	display: block;
+}
+
 #display {
     width: 97.5%;
     margin-bottom: 10px;

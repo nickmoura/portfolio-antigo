@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
 	body {
 		background-image: linear-gradient(to bottom,  #5ca3ee, #fafafa, #5ca3ee);
@@ -72,9 +74,14 @@
 		margin-top: 10px;
 	}
 
-	#areacalc, .calculator {
+	#areacalc {
 		width: 90%;
 		height: 310px;
+	}
+
+	.calculator {
+		width: 30%;
+		height: 350px;
 	}
 
 	.areaform {
@@ -91,9 +98,16 @@
 		margin-bottom: 10px;
 	}
 
-	.nota {
+	#notaalg {
 		float: bottom;
 	}
+
+	#notacalc {
+		float: bottom;
+		font-size: 0.90rem;
+		margin-top: 5px;
+	}
+	
 
 	#resultado > h2 {
 		float: left;
@@ -111,7 +125,6 @@
 	}
 
 	footer {
-		height: 10vh;
-		margin-top: -10px;
+		margin-top: 10px;
 	}
 }
