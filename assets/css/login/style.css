@@ -29,7 +29,7 @@ main {
 
 #imagem {
 	display: block;
-	background: #5ca3ee url(/assets/img/login/login.jpeg);
+	background: #5ca3ee url(../../img/login/login.jpeg);
 	background-size: cover;
 	background-position: center;
 	display: block;
