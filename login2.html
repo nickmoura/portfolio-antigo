@@ -4,19 +4,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/x-icon" href=".././assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-	<link rel="stylesheet" href="../assets/css/geral.css">
-	<link rel="stylesheet" href=".././assets/css/login2/style.css">
-	<!-- <link rel="stylesheet" href=".././assets/css/login2/media.css"> -->
+	<link rel="stylesheet" href="assets/css/geral.css">
+	<link rel="stylesheet" href="assets/css/login2/style.css">
+	<link rel="stylesheet" href=".././assets/css/login2/media.css">
 	<title>Login</title>
 </head>
 
 <body>
 	<header class="cabecalho">
 		<div class="container-logo">
-			<a href="https://www.nickmoura.github.io/portfolio"><img src="../assets/img/logonick.png" alt="Logo Nick"
-					class="logonick"></a>
+            <a href="https://www.nickmoura.github.io/portfolio"><img src="assets/img/logonick.png" alt="Logo Nick"
+				class="logonick"></a>
 		</div>
 		<div class="cabe-esquerda">
 			<p class="meunome">Nick Moura</p>
@@ -28,8 +28,8 @@
 	<main class="content">
 		<div class="wrapper">
 			<form action="">
-				<h1>Login</h1>
 				<section class="loginarea1">
+					<h1>Login</h1>
 					<div class="input-box">
 						<input type="text" placeholder="Usuário" required>
 						<i class='bx bxs-user'></i>
@@ -38,15 +38,15 @@
 						<input type="password" placeholder="Senha" required>
 						<i class='bx bxs-lock-alt' ></i>
 					</div>
+					<div class="remember">
+						<label for=""><input type="checkbox">Lembrar</label>
+					</div>
 				</section>
 				<section class="loginarea2">
-					<div class="remember-forgot">
-						<label for=""><input type="checkbox">Me mantenha logado</label>
-						<a href="#">Esqueci minha senha</a>
-					</div>
 					<button type="submit" class="btn">Entrar</button>
 					<div class="register-link">
 						<p>Não tem uma conta?<a href="#"> Cadastre-se</a></p>
+						<a href="#" class="forgot">Esqueci minha senha</a>
 					</div>
 				</section>
 			</form>

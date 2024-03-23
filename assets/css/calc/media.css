@@ -9,14 +9,14 @@
 	
 	.areaprincipal {
 		width: 100vw;
-		height: 110vh;
+		height: 84vh;
 		margin: auto;
 		margin-top: 10px;
 	}
 
 	#areacalc, .calculator {
-		width: 95%;
-		height: 310px;
+		width: 70%;
+		height: 320px;
 	}
 
 	.legendaform {
@@ -56,10 +56,6 @@
 		margin: 0;
 	}
 
-	footer {
-		margin-top: -20px;
-	}
-
 }
 
 @media screen and (min-width: 992px) {
@@ -80,8 +76,8 @@
 	}
 
 	.calculator {
-		width: 30%;
-		height: 350px;
+		width: 40%;
+		height: 500px;
 	}
 
 	.areaform {
@@ -105,7 +101,7 @@
 	#notacalc {
 		float: bottom;
 		font-size: 0.90rem;
-		margin-top: 5px;
+		margin-top: 25px;
 	}
 	
 
