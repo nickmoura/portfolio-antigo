@@ -32,7 +32,6 @@ main {
 	background: #5ca3ee url(../../img/login/login.jpeg);
 	background-size: cover;
 	background-position: center;
-	display: block;
 	height: 200px;
 }
 

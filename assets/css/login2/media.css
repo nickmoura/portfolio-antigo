@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/*Arquivo em teste */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+.wrapper {
+	width: 80vh;
+	padding-top: 15px;
+}
+
+.loginarea1 {
+	float: left;
+	height: 50%;
+	height: 100%;
+}
+
+.loginarea2 {
+	float: right;
+	width: 40%;
+	height: 100%;
+}
+}
