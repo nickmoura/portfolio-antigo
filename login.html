@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<!-- apenas para dar deploy -->
+<html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nick Moura - Dev front-end</title>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 	<link rel="stylesheet" href="assets/css/geral.css">
 	<link rel="stylesheet" href="assets/css/login/style.css">
-	<link rel="stylesheet" href="assets/css/login/media-query.css">
+	<link rel="stylesheet" href=".././assets/css/login/media.css">
+	<title>Login</title>
 </head>
 
 <body>
@@ -25,43 +25,37 @@
             <p class="nomerepo">Dev front-end</p>
 		</div>
 	</header>
-	<main>
-		<section id="login">
-			<div id="imagem">
-
-			</div>
-			<div id="formulario">
-				<h1>Login</h1>
-				<p>Seja bem-vindo(a). Faça login para acessar sua conta e poder fazer as configurações no seu ambiente
-				</p>
-				<form action="login.php" method="post" autocomplete="on">
-					<div class="campo">
-						<span class="material-symbols-outlined">
-							person
-							</span>
-						<input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required maxlength="30">
-						<label for="ilogin">Login</label>
+	<main class="content">
+		<div class="wrapper">
+			<form action="">
+				<section class="loginarea1">
+					<h1>Login</h1>
+					<div class="input-box">
+						<input type="text" placeholder="CPF" required autocomplete="off" maxlength="14" id="CPF">
+						<i class='bx bxs-id-card'></i>
 					</div>
-					<div class="campo">
-						<span class="material-symbols-outlined">
-							password
-							</span>
-						<input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
-						<label for="isenha">Senha</label>
+					<div class="input-box">
+						<input type="password" placeholder="Senha" required>
+						<i class='bx bxs-lock-alt' ></i>
 					</div>
-							<input type="submit" value="Entrar">
-							<a href="esqueci.html" class="botao">
-								Esqueci a senha <span class="material-symbols-outlined">
-								mail
-								</span>
-							</a>
-				</form>
-			</div>
-		</section>
+					<div class="remember">
+						<label for=""><input type="checkbox">Lembrar</label>
+					</div>
+				</section>
+				<section class="loginarea2">
+					<button type="submit" class="btn">Entrar</button>
+					<div class="register-link">
+						<p>Não tem uma conta?<a href="#"> Cadastre-se</a></p>
+						<a href="#" class="forgot">Esqueci minha senha</a>
+					</div>
+				</section>
+			</form>
+		</div>
 	</main>
-	<footer>
+		<footer>
 		<p>Criado por Nickolas Moura para <a href="https://www.github.com/nickmoura" class="linkgit">seu GitHub</a></p>
 	</footer>
+	<script src="assets/script/mascara.js"></script>
 </body>
 
 </html>
