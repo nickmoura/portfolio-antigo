@@ -14,13 +14,13 @@
 .loginarea1 {
 	float: left;
 	width: 50%;
-	height: 100%;
+	height: 250px;
 }
 
 .loginarea2 {
 	float: right;
 	width: 50%;
-	height: 100%;
+	height: 250px;
 	justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
 }
@@ -46,13 +46,14 @@
 		justify-content: center;
 		float: left;
 		width: 50%;
-		height: 100%;
+		height: 250px;
 	}
 	
 	.loginarea2 {
 		float: right;
 		width: 50%;
-		height: 100%;
+		height: 250px;
+		transform: translateY(15%);
 		justify-content: center; /* Centraliza horizontalmente */
 		align-items: center; /* Centraliza verticalmente */
 	}

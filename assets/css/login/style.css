@@ -92,7 +92,7 @@ body, html {
 	display: flex;
 	justify-content: center;
 	font-size: 14.5px;
-	margin: -15px 0 15px;
+	margin: 15px;
 }
 
 .remember label {
