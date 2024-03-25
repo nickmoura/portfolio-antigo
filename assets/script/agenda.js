@@ -10,9 +10,13 @@ function exibirEventos() {
         const divEvento = document.createElement('div');
         divEvento.classList.add('evento');
         divEvento.innerHTML = `
-            <strong>${evento.data}</strong> - ${evento.titulo}
-            <button onclick="editarEvento(${index})">Editar</button>
-            <button onclick="excluirEvento(${index})">Excluir</button>
+            <strong style="color:#fafafa;">${evento.data}</strong> - ${evento.titulo}
+            <button style="padding:3px;border-radius:5px;background-color:#5ca3ee;color:#fafafa;border: none;
+            outline: none;	box-shadow: 0 0 10px rgba(0, 0, 0, .1);	cursor: pointer;
+            " onclick="editarEvento(${index})">Editar</button>
+            <button style="padding:3px;border-radius:5px;background-color:#5ca3ee;color:#fafafa;border: none;
+            outline: none;	box-shadow: 0 0 10px rgba(0, 0, 0, .1);	cursor: pointer;
+            "  onclick="excluirEvento(${index})">Excluir</button>
         `;
         divEventos.appendChild(divEvento);
     });
