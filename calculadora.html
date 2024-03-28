@@ -28,11 +28,6 @@
 
 	<main class="areaprincipal">
 		<h1 class="titulopagina">Calculadora de Números</h1>
-		<nav class="mini-menu">
-            <a href="maincalc.html">Página inicial</a>
-			<a href="calculadora.html" class="active">Calculadora comum</a>
-			<a href="algarismos.html">Calculadora de algarismos</a>
-		</nav>
         <section class="calculator">
             <input type="text" id="display" readonly onkeydown="handleKeyPress(event)">
             <div class="botoes-calc">
@@ -62,15 +57,15 @@
 
 
             </div>
-				<p class="nota" id="notacalc"><span class="nota-span">NOTA:</span> Raiz quadrada e porcentagem ainda não estão funcionando corretamente. Agradeço a compreensão!</p>
-
 		</section>
 	</main>
 
 	<footer>
 		<p>Criado por Nickolas Moura para <a href="https://www.github.com/nickmoura" class="linkgit">seu GitHub</a></p>
 	</footer>
-
+<script>
+	window.alert('Raiz quadrada e porcentagem não estão funcionando corretamente.')
+</script>
 </body>
 <script src="assets/script/padrao.js"></script>
 <script src="assets/script/calculadora.js"></script>

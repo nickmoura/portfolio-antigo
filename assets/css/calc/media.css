@@ -1,10 +1,7 @@
 @charset "UTF-8";
 
-
-
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 500px) and (max-width: 992px) {
 	body {
-		background-image: linear-gradient(to bottom,  #5ca3ee, #fafafa, #5ca3ee);
 	}	
 	
 	.areaprincipal {
@@ -16,7 +13,7 @@
 
 	#areacalc, .calculator {
 		width: 70%;
-		height: 320px;
+		height: 60vh;
 	}
 
 	.legendaform {
@@ -31,6 +28,7 @@
 	#resultado {
 		float: right;
 		width: 50%;
+
 	}
 
 	.guia > h2 {
@@ -56,11 +54,16 @@
 		margin: 0;
 	}
 
+	#display {
+		font-size: 2rem;
+		height: 15%;
+	}
+
+
 }
 
 @media screen and (min-width: 992px) {
 	body {
-		background-image: linear-gradient(to bottom,  #5ca3ee, #fafafa, #5ca3ee);
 	}
 		
 	.areaprincipal {
@@ -76,8 +79,8 @@
 	}
 
 	.calculator {
-		width: 40%;
-		height: 500px;
+		width: 20%;
+		height: 60vh;
 	}
 
 	.areaform {
@@ -113,6 +116,11 @@
 	.areatabela {
 		float: right;
 		width: 70%;
+	}
+
+	#display {
+		font-size: 2rem;
+		height: 15%;
 	}
 
 	#reset {
