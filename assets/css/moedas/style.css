@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Poppins";
+	color: #fafafa;
+}
+
+body {
+	background: url('../../img/moedas/fundo-novo-1920.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.btn {
+	width: 100%;
+	height: 45px;
+	background: #5ca3ee;
+	border: none;
+	outline: none;
+	border-radius: 40px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+	cursor: pointer;
+	font-size: 16px;
+	color: #fafafa;
+	font-weight: 600;
+}
+
+.btn:hover {
+	background: #99c4f3;
+	color: black;
+}
+
+.form-control {	
+	background: transparent;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius: 40px;
+	color: #fafafa;
+}
+
+.form-control::-webkit-inner-spin-button, 
+.form-control::-webkit-outer-spin-button { 
+    -webkit-appearance: none; /* Safari e Chrome */
+    margin: 0; /* Remove a margem padrão */
+}
+
+.form-control::placeholder {
+	color: #fafafa;
+}
+
+option {
+	background: transparent;
+	outline: none;
+	border: 2px solid rgba(255, 255, 255, .2);
+	border-radius: 40px;
+}
+
+main {
+	
+}
+
+.mb-4 {
+	text-align: center;
+}
+
+.container {
+	width: 50vw;
+	background: transparent;
+	border: 1px solid #ffffff33;
+	backdrop-filter: blur(20px);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+	border-radius: 1rem;
+}
